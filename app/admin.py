@@ -1,9 +1,9 @@
 from django.contrib import admin
 # Register your models here.
-from .models import VNUser
+from .models import UserProfiles
 # Register your models here.
-class VNUserAdmin(admin.ModelAdmin):
-  list_display = ['author', 'fullname', 'email', 'phone', 'avatar']
-  list_filter = ['author']
-  search_fields = ['author'] 
-admin.site.register(VNUser,VNUserAdmin)
+class UserProfilesAdmin(admin.ModelAdmin):
+  list_display = ['user', 'fullname', 'email', 'phone', 'avatar']
+  list_filter = ['user']
+  search_fields = ['user'] 
+admin.site.register(UserProfiles,UserProfilesAdmin)
