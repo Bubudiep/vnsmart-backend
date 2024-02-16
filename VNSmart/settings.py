@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'vnsmart',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'Pan123456!!',
         'HOST': 'localhost',
         'PORT': '3306',
     }
